@@ -137,11 +137,13 @@ ul li {
 
   .header-text h1 {
     font-size: 3rem; /* Smaller font for header on mobile */
+    margin-bottom: 0;
   }
 
   .header-text h2.subheader, .header-text h3.subheader {
     font-size: 0.65rem; /* Smaller subheader font on mobile */
     padding-left: 0; /* Remove left padding on mobile */
+    margin-bottom: 0;
   }
 
   .footer-message {
@@ -171,6 +173,7 @@ ul li {
 
   .header-text {
     padding-top: 5px; /* Minimize spacing below logo */
+    margin-bottom: 0;
   }
 
   main {
