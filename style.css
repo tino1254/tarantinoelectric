@@ -165,7 +165,8 @@ ul li {
 
   .logo {
     width: 150x; /* Smaller logo size on mobile */
-    margin-top: 20px; /* Adjust as needed */
+    /*margin-top: 20px; /* Adjust as needed */
+    margin: 10px 0; /* Less spacing above/below logo */
   }
 
   main::before {
