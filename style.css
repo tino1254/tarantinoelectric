@@ -135,10 +135,12 @@ ul li {
 
   .header-text h1 {
     font-size: 3rem; /* Smaller font for header on mobile */
+    padding-top: 10px; /* Add padding to move text content down */
   }
 
   .header-text h2.subheader, .header-text h3.subheader {
     font-size: 0.65rem; /* Smaller subheader font on mobile */
+    padding-left: 0; /* Remove left padding on mobile */
   }
 
   .footer-message {
