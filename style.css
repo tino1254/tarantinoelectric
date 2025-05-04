@@ -131,23 +131,24 @@ ul li {
     flex-direction: column; /* Stack the header content vertically */
     align-items: center;
     text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
   }
 
   .header-text h1 {
     font-size: 3rem; /* Smaller font for header on mobile */
-    margin-bottom: 0;
+    margin-bottom: 0; /* Remove margin below h1 */
   }
 
   .header-text h2.subheader, .header-text h3.subheader {
     font-size: 0.65rem; /* Smaller subheader font on mobile */
     padding-left: 0; /* Remove left padding on mobile */
-    margin-bottom: 0;
+    margin-bottom: 0; /* Remove margin between subheader and content */
   }
 
   .footer-message {
     font-size: 2rem; /* Smaller font for footer message */
+    margin-top: 10px;
   }
 
   .services, .contact {
@@ -156,6 +157,7 @@ ul li {
 
   .info {
     flex-direction: column;
+    gap: 0px; /* Reduced space between services and contact */
   }
 
   h2 {
@@ -167,21 +169,22 @@ ul li {
   }
 
   .logo {
-    width: 150x; /* Smaller logo size on mobile */
-    margin: 0; /* Remove margin between logo and text */
+    width: 150px; /* Correct width of logo on mobile */
+    margin-bottom: 10px; /* Reduced space between logo and text */
   }
 
   .header-text {
-    padding-top: 5px; /* Minimize spacing below logo */
+    padding-top: 0; /* Reduce the space between logo and text */
     margin-bottom: 0;
   }
 
   main {
-    padding: 20px 15px;
+    padding: 0 15px; /* Adjust main content padding */
+    padding-top: 0; /* Remove padding-top to reduce space */
   }
 
   main::before {
-    display: none; /* 🔒 Hide background image on mobile */
+    display: none; /* Hide background image on mobile */
   }
 }
 
